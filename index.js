@@ -6,4 +6,4 @@ http.createServer(function(req,res){
     "content-type":"text/html;charset=utf8"
   });
   res.end(fs.readFileSync("page.html","utf8"));
-})
+}).listen(8888);
